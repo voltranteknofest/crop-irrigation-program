@@ -1,0 +1,90 @@
+
+--- 1 ---
+
+Date: 2024-05-27 14:57:09
+Crop Type: potato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.15
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.651410056235031
+Soil Moisture: 138.0
+Deep Percolation: 0.0
+Irrigation Needed (amount): 0.0
+Days: 5
+
+--- 2 ---
+
+Date: 2024-05-27 14:57:31
+Crop Type: potato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.15
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.651410056235031
+Soil Moisture: 160.0
+Deep Percolation: 9.0
+Irrigation Needed (amount): 0.0
+Days: 8
+
+--- 3 ---
+
+Date: 2024-05-27 14:57:48
+Crop Type: tomato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.05
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 6.986070051345029
+Soil Moisture: 80.0
+Deep Percolation: 0.0
+Irrigation Needed (amount): 80.0
+Days: 0
+
+--- 4 ---
+
+Date: 2024-05-27 14:57:56
+Crop Type: tomato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.05
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 6.986070051345029
+Soil Moisture: 125.0
+Deep Percolation: 0.0
+Irrigation Needed (amount): 0.0
+Days: 4
+
+--- 5 ---
+
+Date: 2024-05-27 14:59:01
+Crop Type: tomato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.05
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 6.986070051345029
+Soil Moisture: 140.0
+Deep Percolation: 0.0
+Irrigation Needed (amount): 0.0
+Days: 6
