@@ -3,13 +3,16 @@ import datetime
 import numpy as np
 from .consts import DB_PATH, SQL_INSERT, SQL_TABLE, PARAMS_MAPPING
 
+__all__ = ["get_results_all", "calc_average_moisture_for_result",
+           "save_to_sqlite", "delete_by_id"]
+
 
 RESULTS_PATH = "irrigationtools/db/results.txt"
 
 
 def get_results_all():
     """
-    Fetch all results ever saved and write them to db/results.txt
+    Kaydedilmiş tüm verileri alır ve okunabilir bir metin olarak db/results.txt üzerine yazar.
     """
     
     conn = sqlite3.connect(DB_PATH)
@@ -31,7 +34,7 @@ def get_results_all():
     f.close()
     conn.close()
 
-def calc_median_moisture_for_result(crop_type):
+def calc_average_moisture_for_result(crop_type):
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
 
@@ -44,16 +47,16 @@ def calc_median_moisture_for_result(crop_type):
 
     inverted_params = {v: k for k, v in PARAMS_MAPPING.items()}
     soil_moisture_values = [r[inverted_params["Soil Moisture"]] for r in rows]
-    median_soil_moisture = np.median(soil_moisture_values)
+    avg_soil_moisture = np.average(soil_moisture_values)
     
     print(soil_moisture_values)
 
-    return median_soil_moisture
+    return avg_soil_moisture
 
 
 def save_to_sqlite(crop_type, altitude, T, u2, RH, R_n, G, Kc, ET0, ETc, moisture, deep_percolation, amount, days):
     """
-    Save results to sqlite db
+    Sonuçları sqlite veritabanına kaydeder.
     """
 
     conn = sqlite3.connect(DB_PATH)
@@ -72,7 +75,7 @@ def save_to_sqlite(crop_type, altitude, T, u2, RH, R_n, G, Kc, ET0, ETc, moistur
 
 def delete_by_id(id):
     """
-    Deletes a specific irrigation result by its ID
+    ID kullanarak kaydedilmiş sonuçları siler.
     """
 
     conn = sqlite3.connect(DB_PATH)
@@ -81,7 +84,3 @@ def delete_by_id(id):
     cursor.execute('DELETE FROM irrigation_results WHERE id = ?', (id,))
     conn.commit()
     conn.close()
-
-
-__all__ = ["get_results_all", "calc_median_moisture_for_result",
-           "save_to_sqlite", "delete_by_id"]

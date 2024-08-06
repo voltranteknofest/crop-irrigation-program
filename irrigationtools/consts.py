@@ -48,8 +48,14 @@ PARAMS_MAPPING = {
 
 CROP_MAPPING = \
     {
-        "tomato":   {"init-season": 0.7, "mid-season": 1.5, "late-season": 0.8},
-        "potato":   {"init-season": 0.5, "mid-season": 1.15, "late-season": 0.75},
-        "cherries": {"init-season": 0.5, "mid-season": 1.2, "late-season": 0.85},
-        # rest
+        "tomato":    { "init-season": 0.7, "mid-season": 1.5, "late-season": 0.8   },
+        "potato":    { "init-season": 0.5, "mid-season": 1.15, "late-season": 0.75 },
+        "corn":      { "init-season": 0.4, "mid-season": 1.2, "late-season": 0.6   },
+        "wheat":     { "init-season": 0.3, "mid-season": 1.1, "late-season": 0.4   },
+        "soybean":   { "init-season": 0.4, "mid-season": 1.3, "late-season": 0.7   },
+        "cotton":    { "init-season": 0.3, "mid-season": 1.15, "late-season": 0.65 },
+        "sugarcane": { "init-season": 0.5, "mid-season": 1.25, "late-season": 0.8  },
+        "rice":      { "init-season": 1.1, "mid-season": 1.2, "late-season": 0.9   },
+        "grapes":    { "init-season": 0.4, "mid-season": 0.8, "late-season": 0.5   },
+        "alfalfa":   { "init-season": 0.9, "mid-season": 1.2, "late-season": 0.8   },
     }
