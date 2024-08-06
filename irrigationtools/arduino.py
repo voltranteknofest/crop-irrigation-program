@@ -7,6 +7,8 @@ SERIAL_DEVICE           = "COM3"
 SERIAL_PORT             = 9600
 SECONDS_BEFORE_LOOP     = 5
 MILISECONDS_BEFORE_LOOP = SECONDS_BEFORE_LOOP * 1000
+MOISTURE_SENSOR_MIN     = 0
+MOISTURE_SENSOR_MAX     = 1023
 
 
 class Button(Enum):
@@ -15,32 +17,18 @@ class Button(Enum):
     AREA_3 = "Measure Area 3"
     AREA_4 = "Measure Area 4"
 
-    def area_specific_delay(self, ms_format=False):
-        delay = SECONDS_BEFORE_LOOP if not ms_format else MILISECONDS_BEFORE_LOOP
-
-        match self:
-            case self.AREA_1:
-                delay += 5.1 if not ms_format else 5100
-            case self.AREA_2:
-                delay += 10.1 if not ms_format else 10100
-            case self.AREA_3:
-                delay += 15.1 if not ms_format else 15100
-            case self.AREA_4:
-                delay += 20.1 if not ms_format else 20100
-                
-        return delay
-
 
 class Signal(Enum):
-    ON = "on"
-    OFF = "off"
+    ON            = "on"
+    OFF           = "off"
+    READ_MOISTURE = "read_moisture"
 
 
 class Arduino:
     def __init__(self, device=SERIAL_DEVICE, baudrate=SERIAL_PORT):
-        self.device = device
+        self.device   = device
         self.baudrate = baudrate
-        self.ser = None
+        self.ser      = None
 
     def connect(self):
         try:
@@ -64,14 +52,50 @@ class Arduino:
             response = self.ser.readline().decode("utf-8").strip()
             if output:
                 print("ARDUINO:", response)
+            else:
+                return response
         else:
             print("Not connected to Arduino.")
             return None
 
-    def run_loop(self, btn):
-        delay = btn.area_specific_delay()
-
+    def run_loop(self, event):
         time.sleep(SECONDS_BEFORE_LOOP)
+
+        moisture = self.get_moisture()
+        if moisture is None:
+            return
+        
+        print("=> Sensör nem:", moisture)
+
+        delay = int(self.scale_value(moisture, new_min=5, new_max=20))
+        
+        print(f"=> Vanalarin çalisma suresi {delay} saniye olarak belirlendi.")
+
         self.emit(Signal.ON)
         time.sleep(delay)
         self.emit(Signal.OFF)
+
+        event.set()
+
+    def get_moisture(self):
+        moisture = self.emit(Signal.READ_MOISTURE, output=False)
+        warning = "WARNING: Something went wrong with reading moisture value"
+
+        if not moisture or not moisture.isnumeric():
+            print(warning)
+            return None
+
+        try:
+            moisture = int(moisture)
+        except ValueError:
+            print(warning)
+            return None
+
+        return moisture
+
+    @staticmethod
+    def scale_value(value, new_min, new_max, old_min=MOISTURE_SENSOR_MIN, old_max=MOISTURE_SENSOR_MAX):
+        old_range = old_max - old_min
+        new_range = new_max - new_min
+        scaled_value = (((value - old_min) * new_range) / old_range) + new_min
+        return scaled_value

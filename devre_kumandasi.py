@@ -1,5 +1,5 @@
 import tkinter as tk
-from threading import Thread
+from threading import Thread, Event
 from irrigationtools.arduino import Arduino, Button
 
 
@@ -19,26 +19,31 @@ class CircuitGui:
 
         self.buttons = []
         for btn in Button:
-            button = tk.Button(self.button_frame, text=f"{btn.value}", width=25, command=lambda btn=btn: self.button_handler(btn))
+            button = tk.Button(self.button_frame, text=f"{btn.value}", width=25, command=self.button_handler)
             button.pack(pady=5)
             self.buttons.append(button)
 
         self.root.protocol("WM_DELETE_WINDOW", self.on_close)
 
-    def button_handler(self, btn):
-        delay = btn.area_specific_delay(ms_format=True)
-        delay += 7000 # additional time to cover up arduino's latency
-                
-        self.disable_buttons(delay)
-        
-        arduino_loop = Thread(target=arduino.run_loop, args=(btn,))
+    def button_handler(self):
+        self.disable_buttons()
+
+        event = Event()
+        arduino_loop = Thread(target=arduino.run_loop, args=(event,))
         arduino_loop.daemon = True
         arduino_loop.start()
 
-    def disable_buttons(self, time):
+        self.root.after(100, lambda: self.check_thread_finished(event))
+
+    def check_thread_finished(self, event):
+        if event.is_set():
+            self.enable_buttons()
+        else:
+            self.root.after(100, lambda: self.check_thread_finished(event))
+
+    def disable_buttons(self):
         for button in self.buttons:
             button.config(state=tk.DISABLED)
-        self.root.after(time, self.enable_buttons)
 
     def enable_buttons(self):
         for button in self.buttons:
@@ -52,7 +57,7 @@ class CircuitGui:
 if __name__ == "__main__":
     arduino = Arduino()
     arduino.connect()
-    
+
     root = tk.Tk()
     app = CircuitGui(root, arduino)
     root.mainloop()
