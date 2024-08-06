@@ -10,7 +10,7 @@ from irrigationtools import (
 )
 
 def main():
-    crop_type          = "tomato"               # mahsul çeşidi (havuç, patates...)
+    crop_type          = "corn"               # mahsul çeşidi (havuç, patates...)
     crop_growth_season = "mid-season"           # mahsul yetişme sezonu (orta sezon...)
     
     # penman-monteith equation (math)
@@ -32,7 +32,7 @@ def main():
     MAD              = 0.5   # izin verilen maksimum nem azalması (örn: %50 için 0.5 giriniz)
     field_capacity   = 160   # tarla kapasitesi                   (mm cinsinden)
     wilting_point    = 40    # solma noktası                      (mm cinsinden)
-    moisture         = 70    # toprak nemi                        (mm cinsinden)
+    moisture         = 91.54    # toprak nemi                        (mm cinsinden)
     
     # topraktaki nem durumu ve drenajın hesaplanması
     moisture, deep_percolation = calc_soil_props(moisture, field_capacity, wilting_point)
@@ -54,8 +54,8 @@ def main():
         """
     )
     
-    # veri tabanına kaydetme
-    #save_to_sqlite(crop_type, altitude, T, u2, RH, R_n, G, Kc, ET0, ETc, moisture, deep_percolation, amount, days)
+    # veri tabanına kaydetmek
+    save_to_sqlite(crop_type, altitude, T, u2, RH, R_n, G, Kc, ET0, ETc, moisture, deep_percolation, amount, days)
 
 
 if __name__ == '__main__':

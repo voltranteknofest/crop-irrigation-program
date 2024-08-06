@@ -1,43 +1,7 @@
 
 --- 1 ---
 
-Date: 2024-05-27 14:57:09
-Crop Type: potato
-Altitude: 50.0
-Temperature (T): 24.0
-Wind Speed (u2): 2.8
-Relative Humidity (RH): 0.56
-Net Radiation (R_n): 18.0
-Soil Heat Flux (G): 0.0
-Crop Coefficient (Kc): 1.15
-Reference Evapotranspiration (ET0): 6.653400048900028
-Crop Evapotranspiration (ETc): 7.651410056235031
-Soil Moisture: 138.0
-Deep Percolation: 0.0
-Irrigation Needed (amount): 0.0
-Days: 5
-
---- 2 ---
-
-Date: 2024-05-27 14:57:31
-Crop Type: potato
-Altitude: 50.0
-Temperature (T): 24.0
-Wind Speed (u2): 2.8
-Relative Humidity (RH): 0.56
-Net Radiation (R_n): 18.0
-Soil Heat Flux (G): 0.0
-Crop Coefficient (Kc): 1.15
-Reference Evapotranspiration (ET0): 6.653400048900028
-Crop Evapotranspiration (ETc): 7.651410056235031
-Soil Moisture: 160.0
-Deep Percolation: 9.0
-Irrigation Needed (amount): 0.0
-Days: 8
-
---- 3 ---
-
-Date: 2024-05-27 14:57:48
+Date: 2024-08-06 19:23:07
 Crop Type: tomato
 Altitude: 50.0
 Temperature (T): 24.0
@@ -45,46 +9,1108 @@ Wind Speed (u2): 2.8
 Relative Humidity (RH): 0.56
 Net Radiation (R_n): 18.0
 Soil Heat Flux (G): 0.0
-Crop Coefficient (Kc): 1.05
+Crop Coefficient (Kc): 1.5
 Reference Evapotranspiration (ET0): 6.653400048900028
-Crop Evapotranspiration (ETc): 6.986070051345029
+Crop Evapotranspiration (ETc): 9.980100073350041
+Soil Moisture: 70.0
+Deep Percolation: 0.0
+Irrigation Needed (amount): 90.0
+Days: 0
+
+--- 2 ---
+
+Date: 2024-08-06 19:23:12
+Crop Type: tomato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.5
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 9.980100073350041
+Soil Moisture: 70.6
+Deep Percolation: 0.0
+Irrigation Needed (amount): 89.4
+Days: 0
+
+--- 3 ---
+
+Date: 2024-08-06 19:23:27
+Crop Type: tomato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.5
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 9.980100073350041
+Soil Moisture: 71.2
+Deep Percolation: 0.0
+Irrigation Needed (amount): 88.8
+Days: 0
+
+--- 4 ---
+
+Date: 2024-08-06 19:23:35
+Crop Type: tomato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.5
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 9.980100073350041
+Soil Moisture: 75.9
+Deep Percolation: 0.0
+Irrigation Needed (amount): 84.1
+Days: 0
+
+--- 5 ---
+
+Date: 2024-08-06 19:23:40
+Crop Type: tomato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.5
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 9.980100073350041
+Soil Moisture: 78.912
+Deep Percolation: 0.0
+Irrigation Needed (amount): 81.088
+Days: 0
+
+--- 6 ---
+
+Date: 2024-08-06 19:23:46
+Crop Type: tomato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.5
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 9.980100073350041
+Soil Moisture: 70.212
+Deep Percolation: 0.0
+Irrigation Needed (amount): 89.788
+Days: 0
+
+--- 7 ---
+
+Date: 2024-08-06 19:23:54
+Crop Type: tomato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.5
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 9.980100073350041
+Soil Moisture: 74.12
+Deep Percolation: 0.0
+Irrigation Needed (amount): 85.88
+Days: 0
+
+--- 8 ---
+
+Date: 2024-08-06 19:24:02
+Crop Type: tomato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.5
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 9.980100073350041
+Soil Moisture: 77.42
+Deep Percolation: 0.0
+Irrigation Needed (amount): 82.58
+Days: 0
+
+--- 9 ---
+
+Date: 2024-08-06 19:24:07
+Crop Type: tomato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.5
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 9.980100073350041
+Soil Moisture: 77.49
+Deep Percolation: 0.0
+Irrigation Needed (amount): 82.51
+Days: 0
+
+--- 10 ---
+
+Date: 2024-08-06 19:24:15
+Crop Type: tomato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.5
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 9.980100073350041
+Soil Moisture: 70.19
+Deep Percolation: 0.0
+Irrigation Needed (amount): 89.81
+Days: 0
+
+--- 11 ---
+
+Date: 2024-08-06 19:24:29
+Crop Type: tomato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.5
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 9.980100073350041
+Soil Moisture: 73.96
+Deep Percolation: 0.0
+Irrigation Needed (amount): 86.04
+Days: 0
+
+--- 12 ---
+
+Date: 2024-08-06 19:24:35
+Crop Type: tomato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.5
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 9.980100073350041
+Soil Moisture: 76.26
+Deep Percolation: 0.0
+Irrigation Needed (amount): 83.74
+Days: 0
+
+--- 13 ---
+
+Date: 2024-08-06 19:26:25
+Crop Type: potato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.15
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.651410056235031
+Soil Moisture: 78.26
+Deep Percolation: 0.0
+Irrigation Needed (amount): 81.74
+Days: 0
+
+--- 14 ---
+
+Date: 2024-08-06 19:26:38
+Crop Type: potato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.15
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.651410056235031
+Soil Moisture: 81.2
+Deep Percolation: 0.0
+Irrigation Needed (amount): 78.8
+Days: 0
+
+--- 15 ---
+
+Date: 2024-08-06 19:26:49
+Crop Type: potato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.15
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.651410056235031
+Soil Moisture: 85.22
+Deep Percolation: 0.0
+Irrigation Needed (amount): 74.78
+Days: 0
+
+--- 16 ---
+
+Date: 2024-08-06 19:26:53
+Crop Type: potato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.15
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.651410056235031
+Soil Moisture: 89.22
+Deep Percolation: 0.0
+Irrigation Needed (amount): 70.78
+Days: 0
+
+--- 17 ---
+
+Date: 2024-08-06 19:27:00
+Crop Type: potato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.15
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.651410056235031
+Soil Moisture: 85.52
+Deep Percolation: 0.0
+Irrigation Needed (amount): 74.48
+Days: 0
+
+--- 18 ---
+
+Date: 2024-08-06 19:27:06
+Crop Type: potato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.15
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.651410056235031
+Soil Moisture: 87.12
+Deep Percolation: 0.0
+Irrigation Needed (amount): 72.88
+Days: 0
+
+--- 19 ---
+
+Date: 2024-08-06 19:27:12
+Crop Type: potato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.15
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.651410056235031
+Soil Moisture: 84.77
+Deep Percolation: 0.0
+Irrigation Needed (amount): 75.23
+Days: 0
+
+--- 20 ---
+
+Date: 2024-08-06 19:27:19
+Crop Type: potato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.15
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.651410056235031
+Soil Moisture: 88.217
+Deep Percolation: 0.0
+Irrigation Needed (amount): 71.783
+Days: 0
+
+--- 21 ---
+
+Date: 2024-08-06 19:27:29
+Crop Type: potato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.15
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.651410056235031
+Soil Moisture: 80.1
+Deep Percolation: 0.0
+Irrigation Needed (amount): 79.9
+Days: 0
+
+--- 22 ---
+
+Date: 2024-08-06 19:27:36
+Crop Type: potato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.15
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.651410056235031
+Soil Moisture: 80.19
+Deep Percolation: 0.0
+Irrigation Needed (amount): 79.81
+Days: 0
+
+--- 23 ---
+
+Date: 2024-08-06 19:27:46
+Crop Type: potato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.15
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.651410056235031
+Soil Moisture: 84.75
+Deep Percolation: 0.0
+Irrigation Needed (amount): 75.25
+Days: 0
+
+--- 24 ---
+
+Date: 2024-08-06 19:27:54
+Crop Type: potato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.15
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.651410056235031
+Soil Moisture: 84.95
+Deep Percolation: 0.0
+Irrigation Needed (amount): 75.05
+Days: 0
+
+--- 25 ---
+
+Date: 2024-08-06 19:28:03
+Crop Type: potato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.15
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.651410056235031
+Soil Moisture: 87.36
+Deep Percolation: 0.0
+Irrigation Needed (amount): 72.64
+Days: 0
+
+--- 26 ---
+
+Date: 2024-08-06 19:28:09
+Crop Type: potato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.15
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.651410056235031
+Soil Moisture: 81.96
+Deep Percolation: 0.0
+Irrigation Needed (amount): 78.04
+Days: 0
+
+--- 27 ---
+
+Date: 2024-08-06 19:28:21
+Crop Type: potato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.15
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.651410056235031
+Soil Moisture: 88.906
+Deep Percolation: 0.0
+Irrigation Needed (amount): 71.094
+Days: 0
+
+--- 28 ---
+
+Date: 2024-08-06 19:28:30
+Crop Type: potato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.15
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.651410056235031
+Soil Moisture: 88.87
+Deep Percolation: 0.0
+Irrigation Needed (amount): 71.13
+Days: 0
+
+--- 29 ---
+
+Date: 2024-08-06 19:28:38
+Crop Type: potato
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.15
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.651410056235031
+Soil Moisture: 86.4
+Deep Percolation: 0.0
+Irrigation Needed (amount): 73.6
+Days: 0
+
+--- 30 ---
+
+Date: 2024-08-06 19:35:27
+Crop Type: carrot
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.0
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 6.653400048900028
+Soil Moisture: 77.2
+Deep Percolation: 0.0
+Irrigation Needed (amount): 82.8
+Days: 0
+
+--- 31 ---
+
+Date: 2024-08-06 19:35:32
+Crop Type: carrot
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.0
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 6.653400048900028
+Soil Moisture: 77.5
+Deep Percolation: 0.0
+Irrigation Needed (amount): 82.5
+Days: 0
+
+--- 32 ---
+
+Date: 2024-08-06 19:35:39
+Crop Type: carrot
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.0
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 6.653400048900028
+Soil Moisture: 78.9
+Deep Percolation: 0.0
+Irrigation Needed (amount): 81.1
+Days: 0
+
+--- 33 ---
+
+Date: 2024-08-06 19:35:46
+Crop Type: carrot
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.0
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 6.653400048900028
+Soil Moisture: 81.2
+Deep Percolation: 0.0
+Irrigation Needed (amount): 78.8
+Days: 0
+
+--- 34 ---
+
+Date: 2024-08-06 19:35:57
+Crop Type: carrot
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.0
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 6.653400048900028
+Soil Moisture: 82.6
+Deep Percolation: 0.0
+Irrigation Needed (amount): 77.4
+Days: 0
+
+--- 35 ---
+
+Date: 2024-08-06 19:36:01
+Crop Type: carrot
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.0
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 6.653400048900028
+Soil Moisture: 87.6
+Deep Percolation: 0.0
+Irrigation Needed (amount): 72.4
+Days: 0
+
+--- 36 ---
+
+Date: 2024-08-06 19:36:09
+Crop Type: carrot
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.0
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 6.653400048900028
+Soil Moisture: 84.3
+Deep Percolation: 0.0
+Irrigation Needed (amount): 75.7
+Days: 0
+
+--- 37 ---
+
+Date: 2024-08-06 19:36:13
+Crop Type: carrot
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.0
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 6.653400048900028
+Soil Moisture: 82.98
+Deep Percolation: 0.0
+Irrigation Needed (amount): 77.02
+Days: 0
+
+--- 38 ---
+
+Date: 2024-08-06 19:36:18
+Crop Type: carrot
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.0
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 6.653400048900028
+Soil Moisture: 84.48
+Deep Percolation: 0.0
+Irrigation Needed (amount): 75.52
+Days: 0
+
+--- 39 ---
+
+Date: 2024-08-06 19:36:24
+Crop Type: carrot
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.0
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 6.653400048900028
+Soil Moisture: 81.38
+Deep Percolation: 0.0
+Irrigation Needed (amount): 78.62
+Days: 0
+
+--- 40 ---
+
+Date: 2024-08-06 19:36:29
+Crop Type: carrot
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.0
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 6.653400048900028
+Soil Moisture: 83.68
+Deep Percolation: 0.0
+Irrigation Needed (amount): 76.32
+Days: 0
+
+--- 41 ---
+
+Date: 2024-08-06 19:36:33
+Crop Type: carrot
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.0
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 6.653400048900028
+Soil Moisture: 80.18
+Deep Percolation: 0.0
+Irrigation Needed (amount): 79.82
+Days: 0
+
+--- 42 ---
+
+Date: 2024-08-06 19:36:38
+Crop Type: carrot
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.0
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 6.653400048900028
+Soil Moisture: 82.38
+Deep Percolation: 0.0
+Irrigation Needed (amount): 77.62
+Days: 0
+
+--- 43 ---
+
+Date: 2024-08-06 19:36:44
+Crop Type: carrot
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.0
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 6.653400048900028
+Soil Moisture: 86.1
+Deep Percolation: 0.0
+Irrigation Needed (amount): 73.9
+Days: 0
+
+--- 44 ---
+
+Date: 2024-08-06 19:36:51
+Crop Type: carrot
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.0
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 6.653400048900028
+Soil Moisture: 79.925
+Deep Percolation: 0.0
+Irrigation Needed (amount): 80.075
+Days: 0
+
+--- 45 ---
+
+Date: 2024-08-06 19:36:59
+Crop Type: carrot
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.0
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 6.653400048900028
+Soil Moisture: 77.619
+Deep Percolation: 0.0
+Irrigation Needed (amount): 82.381
+Days: 0
+
+--- 46 ---
+
+Date: 2024-08-06 19:37:07
+Crop Type: carrot
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.0
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 6.653400048900028
 Soil Moisture: 80.0
 Deep Percolation: 0.0
 Irrigation Needed (amount): 80.0
 Days: 0
 
---- 4 ---
+--- 47 ---
 
-Date: 2024-05-27 14:57:56
-Crop Type: tomato
+Date: 2024-08-06 19:37:16
+Crop Type: carrot
 Altitude: 50.0
 Temperature (T): 24.0
 Wind Speed (u2): 2.8
 Relative Humidity (RH): 0.56
 Net Radiation (R_n): 18.0
 Soil Heat Flux (G): 0.0
-Crop Coefficient (Kc): 1.05
+Crop Coefficient (Kc): 1.0
 Reference Evapotranspiration (ET0): 6.653400048900028
-Crop Evapotranspiration (ETc): 6.986070051345029
-Soil Moisture: 125.0
+Crop Evapotranspiration (ETc): 6.653400048900028
+Soil Moisture: 81.7
 Deep Percolation: 0.0
-Irrigation Needed (amount): 0.0
-Days: 4
+Irrigation Needed (amount): 78.3
+Days: 0
 
---- 5 ---
+--- 48 ---
 
-Date: 2024-05-27 14:59:01
-Crop Type: tomato
+Date: 2024-08-06 19:40:58
+Crop Type: corn
 Altitude: 50.0
 Temperature (T): 24.0
 Wind Speed (u2): 2.8
 Relative Humidity (RH): 0.56
 Net Radiation (R_n): 18.0
 Soil Heat Flux (G): 0.0
-Crop Coefficient (Kc): 1.05
+Crop Coefficient (Kc): 1.2
 Reference Evapotranspiration (ET0): 6.653400048900028
-Crop Evapotranspiration (ETc): 6.986070051345029
-Soil Moisture: 140.0
+Crop Evapotranspiration (ETc): 7.984080058680033
+Soil Moisture: 88.5
 Deep Percolation: 0.0
-Irrigation Needed (amount): 0.0
-Days: 6
+Irrigation Needed (amount): 71.5
+Days: 0
+
+--- 49 ---
+
+Date: 2024-08-06 19:41:07
+Crop Type: corn
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.2
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.984080058680033
+Soil Moisture: 90.2
+Deep Percolation: 0.0
+Irrigation Needed (amount): 69.8
+Days: 0
+
+--- 50 ---
+
+Date: 2024-08-06 19:41:12
+Crop Type: corn
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.2
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.984080058680033
+Soil Moisture: 93.2
+Deep Percolation: 0.0
+Irrigation Needed (amount): 66.8
+Days: 0
+
+--- 51 ---
+
+Date: 2024-08-06 19:41:16
+Crop Type: corn
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.2
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.984080058680033
+Soil Moisture: 93.5
+Deep Percolation: 0.0
+Irrigation Needed (amount): 66.5
+Days: 0
+
+--- 52 ---
+
+Date: 2024-08-06 19:41:23
+Crop Type: corn
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.2
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.984080058680033
+Soil Moisture: 88.9
+Deep Percolation: 0.0
+Irrigation Needed (amount): 71.1
+Days: 0
+
+--- 53 ---
+
+Date: 2024-08-06 19:41:32
+Crop Type: corn
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.2
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.984080058680033
+Soil Moisture: 86.5
+Deep Percolation: 0.0
+Irrigation Needed (amount): 73.5
+Days: 0
+
+--- 54 ---
+
+Date: 2024-08-06 19:41:37
+Crop Type: corn
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.2
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.984080058680033
+Soil Moisture: 91.3
+Deep Percolation: 0.0
+Irrigation Needed (amount): 68.7
+Days: 0
+
+--- 55 ---
+
+Date: 2024-08-06 19:41:44
+Crop Type: corn
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.2
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.984080058680033
+Soil Moisture: 89.2
+Deep Percolation: 0.0
+Irrigation Needed (amount): 70.8
+Days: 0
+
+--- 56 ---
+
+Date: 2024-08-06 19:41:52
+Crop Type: corn
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.2
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.984080058680033
+Soil Moisture: 94.39
+Deep Percolation: 0.0
+Irrigation Needed (amount): 65.61
+Days: 0
+
+--- 57 ---
+
+Date: 2024-08-06 19:42:01
+Crop Type: corn
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.2
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.984080058680033
+Soil Moisture: 89.52
+Deep Percolation: 0.0
+Irrigation Needed (amount): 70.48
+Days: 0
+
+--- 58 ---
+
+Date: 2024-08-06 19:42:08
+Crop Type: corn
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.2
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.984080058680033
+Soil Moisture: 89.61
+Deep Percolation: 0.0
+Irrigation Needed (amount): 70.39
+Days: 0
+
+--- 59 ---
+
+Date: 2024-08-06 19:42:12
+Crop Type: corn
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.2
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.984080058680033
+Soil Moisture: 89.69
+Deep Percolation: 0.0
+Irrigation Needed (amount): 70.31
+Days: 0
+
+--- 60 ---
+
+Date: 2024-08-06 19:42:16
+Crop Type: corn
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.2
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.984080058680033
+Soil Moisture: 89.74
+Deep Percolation: 0.0
+Irrigation Needed (amount): 70.26
+Days: 0
+
+--- 61 ---
+
+Date: 2024-08-06 19:42:23
+Crop Type: corn
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.2
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.984080058680033
+Soil Moisture: 91.24
+Deep Percolation: 0.0
+Irrigation Needed (amount): 68.76
+Days: 0
+
+--- 62 ---
+
+Date: 2024-08-06 19:42:26
+Crop Type: corn
+Altitude: 50.0
+Temperature (T): 24.0
+Wind Speed (u2): 2.8
+Relative Humidity (RH): 0.56
+Net Radiation (R_n): 18.0
+Soil Heat Flux (G): 0.0
+Crop Coefficient (Kc): 1.2
+Reference Evapotranspiration (ET0): 6.653400048900028
+Crop Evapotranspiration (ETc): 7.984080058680033
+Soil Moisture: 91.54
+Deep Percolation: 0.0
+Irrigation Needed (amount): 68.46
+Days: 0

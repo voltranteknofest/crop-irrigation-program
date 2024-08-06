@@ -57,5 +57,5 @@ CROP_MAPPING = \
         "sugarcane": { "init-season": 0.5, "mid-season": 1.25, "late-season": 0.8  },
         "rice":      { "init-season": 1.1, "mid-season": 1.2, "late-season": 0.9   },
         "grapes":    { "init-season": 0.4, "mid-season": 0.8, "late-season": 0.5   },
-        "alfalfa":   { "init-season": 0.9, "mid-season": 1.2, "late-season": 0.8   },
+        "carrot":    { "init-season": 0.7, "mid-season": 1.0, "late-season": 0.85  },
     }
