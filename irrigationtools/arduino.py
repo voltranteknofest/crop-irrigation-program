@@ -14,7 +14,6 @@ class Button(Enum):
     AREA_2 = "Measure Area 2"
     AREA_3 = "Measure Area 3"
     AREA_4 = "Measure Area 4"
-    AREA_5 = "Measure Area 5"
 
     def area_specific_delay(self, ms_format=False):
         delay = SECONDS_BEFORE_LOOP if not ms_format else MILISECONDS_BEFORE_LOOP
@@ -28,9 +27,7 @@ class Button(Enum):
                 delay += 15.1 if not ms_format else 15100
             case self.AREA_4:
                 delay += 20.1 if not ms_format else 20100
-            case self.AREA_5:
-                delay += 25.1 if not ms_format else 25100
-
+                
         return delay
 
 

@@ -10,7 +10,7 @@ from irrigationtools import (
 )
 
 def main():
-    crop_type          = "corn"               # mahsul çeşidi (havuç, patates...)
+    crop_type          = "tomato"               # mahsul çeşidi (havuç, patates...)
     crop_growth_season = "mid-season"           # mahsul yetişme sezonu (orta sezon...)
     
     # penman-monteith equation (math)
@@ -55,7 +55,7 @@ def main():
     )
     
     # veri tabanına kaydetmek
-    save_to_sqlite(crop_type, altitude, T, u2, RH, R_n, G, Kc, ET0, ETc, moisture, deep_percolation, amount, days)
+    # save_to_sqlite(crop_type, altitude, T, u2, RH, R_n, G, Kc, ET0, ETc, moisture, deep_percolation, amount, days)
 
 
 if __name__ == '__main__':
