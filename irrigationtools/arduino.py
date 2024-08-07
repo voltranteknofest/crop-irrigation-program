@@ -12,10 +12,10 @@ MOISTURE_SENSOR_MAX     = 1023
 
 
 class Button(Enum):
-    AREA_1 = "Measure Area 1"
-    AREA_2 = "Measure Area 2"
-    AREA_3 = "Measure Area 3"
-    AREA_4 = "Measure Area 4"
+    AREA_1 = "Ölç Bölge 1"
+    AREA_2 = "Ölç Bölge 2"
+    AREA_3 = "Ölç Bölge 3"
+    AREA_4 = "Ölç Bölge 4"
 
 
 class Signal(Enum):
@@ -65,11 +65,13 @@ class Arduino:
         if moisture is None:
             return
         
-        print("=> Sensör nem:", moisture)
+        print("=> Sensor nem:", moisture)
 
         delay = int(self.scale_value(moisture, new_min=5, new_max=20))
         
-        print(f"=> Vanalarin çalisma suresi {delay} saniye olarak belirlendi.")
+        print(f"=> Vanalarin calisma suresi {delay} saniye olarak belirlendi.")
+        
+        time.sleep(SECONDS_BEFORE_LOOP)
 
         self.emit(Signal.ON)
         time.sleep(delay)
