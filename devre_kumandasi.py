@@ -19,17 +19,17 @@ class CircuitGui:
 
         self.buttons = []
         for btn in Button:
-            button = tk.Button(self.button_frame, text=f"{btn.value}", width=25, command=self.button_handler)
+            button = tk.Button(self.button_frame, text=f"{btn.label}", width=25, command=lambda btn=btn: self.button_handler(btn))
             button.pack(pady=5)
             self.buttons.append(button)
 
         self.root.protocol("WM_DELETE_WINDOW", self.on_close)
 
-    def button_handler(self):
+    def button_handler(self, btn):
         self.disable_buttons()
 
         event = Event()
-        arduino_loop = Thread(target=arduino.run_loop, args=(event,))
+        arduino_loop = Thread(target=arduino.run_loop, args=(btn, event))
         arduino_loop.daemon = True
         arduino_loop.start()
 
