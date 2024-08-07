@@ -47,7 +47,7 @@ class Arduino:
             
             for btn in Button:
                 self.emit(Signal.OFF, btn.relay_index, output=False)
-                time.sleep(0.5)
+                time.sleep(0.1)
             self.ser.close()
             
             print("Disconnected.")
