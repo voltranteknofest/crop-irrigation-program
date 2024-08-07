@@ -6,6 +6,7 @@ const int relay_pins[NUM_RELAYS] = { 5, 6, 7, 8 };
 void setup() {
   Serial.begin(9600);
   Serial.setTimeout(100);
+
   for (int i = 0; i < NUM_RELAYS; i++) {
     pinMode(relay_pins[i], OUTPUT);
     digitalWrite(relay_pins[i], HIGH);
