@@ -6,6 +6,10 @@ Bu repo, 2024 yılının tarım teknolojileri kapsamındaki teknofest yarışmas
 
 ![image](https://github.com/user-attachments/assets/5f3f5590-15d8-42fd-ac73-4d6a9ab284f4)
 
+### Bahçe Düzeyinde Sensör Tabanlı Sulamaya Dair Örnek Görüntü
+
+![image](https://github.com/user-attachments/assets/511c4666-15f4-4ca5-8304-0c36dad35cdb)
+
 ### Veri toplayan tarım robotu prototip:
 
 ![tarim_robotu](https://github.com/user-attachments/assets/d49b5342-98e1-4288-8ba5-7c9816592f87)
