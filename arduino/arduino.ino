@@ -1,12 +1,16 @@
 #define NUM_RELAYS 4
-#define SOIL_MOISTURE A3
+#define SOIL_MOISTURE_SENSOR A5
 
-const int relay_pins[NUM_RELAYS] = { 5, 6, 7, 8 };
+const int relay_pins[NUM_RELAYS] = { 10, 11, 12, 13 };
 
 void setup() {
   Serial.begin(9600);
   Serial.setTimeout(100);
 
+  // init moisture sensor
+  pinMode(SOIL_MOISTURE_SENSOR, INPUT);
+
+  // init relay modules
   for (int i = 0; i < NUM_RELAYS; i++) {
     pinMode(relay_pins[i], OUTPUT);
     digitalWrite(relay_pins[i], HIGH);
@@ -21,7 +25,7 @@ void loop() {
   signal.trim();
 
   if (signal.startsWith("read_moisture")) {
-    int moisture_value = analogRead(SOIL_MOISTURE);
+    int moisture_value = analogRead(SOIL_MOISTURE_SENSOR);
     Serial.println(moisture_value);
   }
 
