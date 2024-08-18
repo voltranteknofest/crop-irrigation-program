@@ -7,8 +7,8 @@ SERIAL_DEVICE           = "COM3"
 SERIAL_PORT             = 9600
 SECONDS_BEFORE_LOOP     = 5
 MILISECONDS_BEFORE_LOOP = SECONDS_BEFORE_LOOP * 1000
-MOISTURE_SENSOR_MIN     = 0
-MOISTURE_SENSOR_MAX     = 1023
+MOISTURE_SENSOR_MIN     = 230
+MOISTURE_SENSOR_MAX     = 700
 
 
 class Button(Enum):
@@ -82,7 +82,7 @@ class Arduino:
 
         print("=> Sensor nem:", moisture)
 
-        delay = int(self.scale_value(moisture, new_min=5, new_max=20))
+        delay = int(self.scale_value(moisture, new_min=0, new_max=12))
 
         print(f"=> Vanalarin calisma suresi {delay} saniye olarak belirlendi.")
 
