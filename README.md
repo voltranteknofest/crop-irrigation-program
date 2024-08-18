@@ -200,5 +200,10 @@ Eğer hem robot üzerindeki Raspberry PI'da hem de vanaların kontrolünü sağl
 Bu da teknofest detay raporumuzun literatür taramasında da referans verdiğimiz [M. Taştan'ın makalesinden](https://dergipark.org.tr/tr/download/article-file/662613) örnek bir görüntüdür:
 ![image](https://github.com/user-attachments/assets/dda2a40d-9c6f-4571-a30b-0e1e129cc813)
 
+### Birden Fazla Vana Kullanımının Avantajları
+
+* Bölgesel Sulama Kontrolü => Ürün çeşitliğiline yönelik oluşacak mahsul katsayısı farklılıklarını sulama ihtiyacında hesaba katmak için kontrol sağlar
+* Sistem Arızaları ve Bakım => Farklı vanalar kullanıldığında, bir vanada sorun çıktığında tüm tarlanın sulama sistemi etkilenmez. 
+* Esneklik ve Özelleştirme => Gelecekte tarlaya yeni mahsul eklemek isterseniz, zaten mevcut olan vana sistemi ile bu bölgeyi kolayca entegre edebilirsiniz.
 
 
