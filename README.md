@@ -135,11 +135,13 @@ def calc_irrigation_need(moisture, ETc, field_capacity, wilting_point, MAD):
 
 Tabloda bulunmayan rakım **50m**, rüzgar hızı **2.8 m/s**, net radyasyon **18 MJ/m²**, toprak ısı akısı (G) **0**, tarla kapasitesi (FC) **160mm**, solma noktası (WP) **40mm’de** sabittir. Sıcaklık, bağıl nem, toprak nemi ve MAD değerlerine tabloda değişken olarak yer verilmiştir. Programda sıcaklık ve bağıl nemin değişkenliğine bağlı olarak evapotranspirasyon çıktısı, toprak nemi ve MAD eşiğinin değişkenliğine bağlı olarak zaman ve gereken sulamanın çıktısı hesaplanmış ve tabloda sunulmuştur.
 
-## Matematiksel Olarak Bir Vanadan Saniyede ne kadar Su Akacağını Hesaplamak
+## Canlı Sunum Performansı
+
+### Matematiksel Olarak Bir Vanadan Saniyede ne kadar Su Akacağını Hesaplamak
 
 Bu, projemizin hayata geçirildiği aşamada önem taşıyacak bir bilgidir. Teknofest'te canlı bir şekilde sunum yaparken göstermek amaçlı burada bulunuyor.
 
-### Temel Akış Hızı Formülü
+#### Temel Akış Hızı Formülü
 Akış hızı `Q` birimi `hacim/saniye` (örneğin, `litre/saniye`) olarak ifade edilir ve aşağıdaki şekilde hesaplanır:
 
 $Q = A \times v$;
@@ -149,7 +151,7 @@ Burada:
 - $A$ : Borunun kesit alanı ($m^2$)
 - $v$ : Sıvının hızı ($m/s$)
 
-### Boru Kesit Alanı
+#### Boru Kesit Alanı
 Borunun kesit alanı, borunun çapına bağlı olarak aşağıdaki formülle hesaplanır:
 
 $A = \pi \times \left(\frac{d}{2}\right)^2$;
@@ -159,7 +161,7 @@ Burada:
 - $d$ : Borunun iç çapı ($m$)
 - $\pi$ : Yaklaşık olarak $3.14159$
 
-### Akış Hızı ($v$)
+#### Akış Hızı ($v$)
 Akış hızı, basınca ve sıvının yoğunluğuna bağlı olarak aşağıdaki formülle hesaplanabilir:
 
 $v = \sqrt{\frac{2 \times \Delta P}{\rho}}$;
@@ -171,7 +173,7 @@ Burada:
 
 Su için yoğunluk ($\rho$) genellikle 1000 $kg/m^3$ olarak alınır.
 
-### Akış Miktarının Hesaplanması
+#### Akış Miktarının Hesaplanması
 Belirli bir süre boyunca akacak su miktarı ($V$) aşağıdaki formülle hesaplanır:
 
 $V = Q \times t$;
@@ -181,9 +183,22 @@ Burada:
 - $Q$ : Akış hızı ($m^3/s$ veya $L/s$)
 - $t$ : Akış süresi (saniye)
 
-### Genel Formül
+#### Genel Formül
 Eğer tüm parametreler biliniyorsa boru çapı ve basınç farkına bağlı olarak belirli bir sürede akacak su miktarını hesaplamak için:
 
 $V = \left(\pi \times \left(\frac{d}{2}\right)^2 \times \sqrt{\frac{2 \times \Delta P}{\rho}}\right) \times t$
 
 Bu formül, bir vanadan ne kadar su akacağını hesaplamak için temel matematiksel denklemdir. Daha karmaşık durumlar için akışkan dinamiği prensipleri, kayıplar, sürtünme faktörleri gibi diğer faktörler de göz önüne alınmalıdır.
+
+### Merkezi Üniteye Veri Aktarımı Yapmak
+
+Eğer hem robot üzerindeki Raspberry PI'da hem de vanaların kontrolünü sağlayan merkezi ünitedeki Raspberry PI'da wifi mevcut ise çok etkili bir veri transferi yöntemi mümkündür: [Thingsboard](https://thingsboard.io/). Robot, kaydettiği verileri bir bulut platformu üzerinde internet aracılığıyla depolayacaktır. Aynı şekilde merkezi ünite de internet aracılığıyla bu depolanan verilere ulaşabilecektir. Üstelik çiftçi de mobil üzerinden dahi bu verilere erişebilecektir. Thingsboard üzerinden örnek görüntüler:
+
+![smart-irrigation-1](https://github.com/user-attachments/assets/a52a33d5-f216-4c73-8a32-16177151a0e7)
+![smart-irrigation-3](https://github.com/user-attachments/assets/6a54c13b-2135-4fee-bbdd-23bb7231878a)
+
+Bu da teknofest detay raporumuzun literatür taramasında da referans verdiğimiz [M. Taştan'ın makalesinden](https://dergipark.org.tr/tr/download/article-file/662613) örnek bir görüntüdür:
+![image](https://github.com/user-attachments/assets/dda2a40d-9c6f-4571-a30b-0e1e129cc813)
+
+
+
