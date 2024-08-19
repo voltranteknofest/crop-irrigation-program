@@ -206,4 +206,5 @@ Bu da teknofest detay raporumuzun literatür taramasında da referans verdiğimi
 * Sistem Arızaları ve Bakım => Farklı vanalar kullanıldığında, bir vanada sorun çıktığında tüm tarlanın sulama sistemi etkilenmez. 
 * Esneklik ve Özelleştirme => Gelecekte tarlaya yeni mahsul eklemek isterseniz, zaten mevcut olan vana sistemi ile bu bölgeyi kolayca entegre edebilirsiniz.
 
-
+### Robotun GPS Tabanlı Rotasyonu
+https://www.sciencedirect.com/science/article/pii/S1110016818301091
