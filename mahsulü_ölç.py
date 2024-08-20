@@ -55,7 +55,7 @@ def main():
     )
     
     # verileri SQLite veri tabanına kaydet
-    # save_to_sqlite(crop_type, altitude, T, u2, RH, R_n, G, Kc, ET0, ETc, moisture, deep_percolation, amount, days)
+    save_to_sqlite(crop_type, altitude, T, u2, RH, R_n, G, Kc, ET0, ETc, moisture, deep_percolation, amount, days)
 
 
 if __name__ == '__main__':
