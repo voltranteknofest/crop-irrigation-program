@@ -1,7 +1,11 @@
 import serial
 import time
 from enum import Enum
+import os
+from dotenv import load_dotenv
+import subprocess
 
+load_dotenv()
 
 SERIAL_DEVICE           = "COM3"
 SERIAL_PORT             = 9600
@@ -76,7 +80,7 @@ class Arduino:
     def run_loop(self, btn, event):
         time.sleep(SECONDS_BEFORE_LOOP)
 
-        moisture = self.get_moisture()
+        moisture = self.get_moisture(btn.relay_index)
         if moisture is None:
             return
 
@@ -94,7 +98,7 @@ class Arduino:
 
         event.set()
 
-    def get_moisture(self):
+    def get_moisture(self, area):
         moisture = self.emit(Signal.READ_MOISTURE, output=False)
         warning = "WARNING: Something went wrong with reading moisture value"
 
@@ -107,8 +111,33 @@ class Arduino:
         except ValueError:
             print(warning)
             return None
-
+        
+        self.save_to_dashboard(moisture, area)
+        
         return moisture
+    
+    def save_to_dashboard(self, moisture, area):
+        match (area):
+            case 0:
+                api_url = os.getenv("API_URL_A")
+            case 1:
+                api_url = os.getenv("API_URL_B")
+            case 2:
+                api_url = os.getenv("API_URL_C")
+            case 3:
+                api_url = os.getenv("API_URL_D")
+            case _:
+                print("ERROR: Something is wrong with saving to dashboard.")
+                
+        moisture_percent = ((MOISTURE_SENSOR_MAX - moisture) / (MOISTURE_SENSOR_MAX-MOISTURE_SENSOR_MIN)) * 100
+
+        curl = [
+            "curl", "-v", "-X", "POST", api_url,
+            "--header", "Content-Type:application/json",
+            "--data", f'{{"moisture": {moisture_percent}}}'
+        ]
+        
+        subprocess.run(curl, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
 
     @staticmethod
     def scale_value(value, new_min, new_max, old_min=MOISTURE_SENSOR_MIN, old_max=MOISTURE_SENSOR_MAX):
