@@ -128,6 +128,7 @@ class Arduino:
                 api_url = os.getenv("API_URL_D")
             case _:
                 print("ERROR: Something is wrong with saving to dashboard.")
+                return
                 
         moisture_percent = ((MOISTURE_SENSOR_MAX - moisture) / (MOISTURE_SENSOR_MAX-MOISTURE_SENSOR_MIN)) * 100
 
