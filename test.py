@@ -1,37 +1,33 @@
-from enum import Enum
+import subprocess
+import os
+from dotenv import load_dotenv
 
 
-def scale_value(value, old_min, old_max, new_min, new_max):
-    old_range = old_max - old_min
-    new_range = new_max - new_min
-    scaled_value = (((value - old_min) * new_range) / old_range) + new_min
-    return scaled_value
+load_dotenv()
 
 
-class Button(Enum):
-    AREA_1 = ("Nem Ölç Bölge 1", 0)
-    AREA_2 = ("Nem Ölç Bölge 2", 1)
-    AREA_3 = ("Nem Ölç Bölge 3", 2)
-    AREA_4 = ("Nem Ölç Bölge 4", 3)
+def save_to_dashboard(moisture, area):
+    match (area):
+        case 0:
+            api_url = os.getenv("API_URL_A")
+        case 1:
+            api_url = os.getenv("API_URL_B")
+        case 2:
+            api_url = os.getenv("API_URL_C")
+        case 3:
+            api_url = os.getenv("API_URL_D")
+        case _:
+            print("ERROR: Something is wrong with saving to dashboard.")
+            return
 
-    def __init__(self, label, relay_index):
-        self.label = label
-        self.relay_index = relay_index
+    curl = [
+        "curl", "-v", "-X", "POST", api_url,
+        "--header", "Content-Type:application/json",
+        "--data", f'{{"moisture": {moisture}}}'
+    ]
+
+    subprocess.run(curl, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
 
 
-if __name__ == '__main__':
-    value = 921
-    old_min = 0     # Eski aralığın minimum değeri
-    old_max = 1023  # Eski aralığın maksimum değeri
-    new_min = 5     # Yeni aralığın minimum değeri
-    new_max = 20    # Yeni aralığın maksimum değeri
-
-    scaled_value = scale_value(value, old_min, old_max, new_min, new_max)
-    print(f"{value} sayısının 5 ile 20 arasındaki karşılığı: {scaled_value}")
-    
-    print("----------------")
-
-    for btn in Button:
-        print(btn)
-        print(btn.label)
-        print(btn.relay_index)
+for i in range(4):
+    save_to_dashboard(0, i)
