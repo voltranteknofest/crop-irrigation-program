@@ -6,6 +6,11 @@ Bu repo, 2024 yılının tarım teknolojileri kapsamındaki teknofest yarışmas
 
 ![image](https://github.com/user-attachments/assets/5f3f5590-15d8-42fd-ac73-4d6a9ab284f4)
 
+Üç temel soru:
+1. Veri toplama (mahsullerin su ihtiyacını hesaplama) görevi nasıl gerçekleştirilecek?
+2. Toplanan veriler nasıl iletilecek?
+3. Vana sistemi nasıl çalışacak?
+
 ### Bahçe Düzeyinde Sensör Tabanlı Sulamaya Dair Örnek Görüntü
 
 ![image](https://github.com/user-attachments/assets/511c4666-15f4-4ca5-8304-0c36dad35cdb)
