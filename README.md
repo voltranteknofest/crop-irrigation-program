@@ -10,13 +10,6 @@ Bu repo, 2024 yılının tarım teknolojileri kapsamındaki teknofest yarışmas
 
 ![image](https://github.com/user-attachments/assets/511c4666-15f4-4ca5-8304-0c36dad35cdb)
 
-### Veri toplayan tarım robotu prototip:
-
-![tarim_robotu](https://github.com/user-attachments/assets/d49b5342-98e1-4288-8ba5-7c9816592f87)
-
-### Basit devre düzeyinde vana sistemi prototip:
-(yüklenecek)
-
 ## Penmann-Monteith Denklemi
 
 Penman-Monteith denklemi, mahsullerin referans evapotranspirasyon ($ET0$) değerini hesaplamak için kullanılır. Bu değeri mahsulün türü ve yetişme dönemine göre belirlenen mahsul katsayısı ($Kc$) ile çarpmak bize o mahsulün net evapotranspirasyon değerini verir.
