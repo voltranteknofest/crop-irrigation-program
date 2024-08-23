@@ -42,16 +42,6 @@ $V = \left(\pi \times \left(\frac{d}{2}\right)^2 \times \sqrt{\frac{2 \times \De
 
 Bu formül, bir vanadan ne kadar su akacağını hesaplamak için temel matematiksel denklemdir. Daha karmaşık durumlar için akışkan dinamiği prensipleri, kayıplar, sürtünme faktörleri gibi diğer faktörler de göz önüne alınmalıdır.
 
-### Merkezi Üniteye Veri Aktarımı Yapmak
-
-Eğer hem robot üzerindeki Raspberry PI'da hem de vanaların kontrolünü sağlayan merkezi ünitedeki Raspberry PI'da wifi mevcut ise çok etkili bir veri transferi yöntemi mümkündür: [Thingsboard](https://thingsboard.io/). Robot, kaydettiği verileri bir bulut platformu üzerinde internet aracılığıyla depolayacaktır. Aynı şekilde merkezi ünite de internet aracılığıyla bu depolanan verilere ulaşabilecektir. Üstelik çiftçi de mobil üzerinden dahi bu verilere erişebilecektir. Thingsboard üzerinden örnek görüntüler:
-
-![smart-irrigation-1](https://github.com/user-attachments/assets/a52a33d5-f216-4c73-8a32-16177151a0e7)
-![smart-irrigation-3](https://github.com/user-attachments/assets/6a54c13b-2135-4fee-bbdd-23bb7231878a)
-
-Bu da teknofest detay raporumuzun literatür taramasında da referans verdiğimiz [M. Taştan'ın makalesinden](https://dergipark.org.tr/tr/download/article-file/662613) örnek bir görüntüdür:
-![image](https://github.com/user-attachments/assets/dda2a40d-9c6f-4571-a30b-0e1e129cc813)
-
 ### Birden Fazla Vana Kullanımının Avantajları
 
 * Bölgesel Sulama Kontrolü => Ürün çeşitliğiline yönelik oluşacak mahsul katsayısı farklılıklarını sulama ihtiyacında hesaba katmak için kontrol sağlar
