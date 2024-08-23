@@ -11,6 +11,8 @@ Bu repo, 2024 yılının tarım teknolojileri kapsamındaki teknofest yarışmas
 2. Toplanan veriler nasıl iletilecek?
 3. Vana sistemi nasıl çalışacak?
 
+HEDEF: Otonom sulama-karar mekanizması ile su kaynaklarının verimli kullanımı.
+
 ### Bahçe Düzeyinde Sensör Tabanlı Sulamaya Dair Örnek Görüntü
 
 ![image](https://github.com/user-attachments/assets/511c4666-15f4-4ca5-8304-0c36dad35cdb)
