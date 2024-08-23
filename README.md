@@ -29,7 +29,7 @@ $Kc=1.15$; varsaydığımız durumda net evapotranspirasyon: $ETc= ET0 \times Kc
 
 ---
 
-![plant-soil-water-relations](https://github.com/user-attachments/assets/cfbc174e-c9a7-4ac2-a7b0-c85b8d5b813e)
+![image](https://github.com/user-attachments/assets/caaa74c6-3340-4470-b6b9-dc89bd3a7212)
 
 ## Canlı Sunum Performansı
 
