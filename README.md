@@ -6,7 +6,7 @@ Bu repo, 2024 yılının tarım teknolojileri kapsamındaki teknofest yarışmas
 
 ![image](https://github.com/user-attachments/assets/5f3f5590-15d8-42fd-ac73-4d6a9ab284f4)
 
-Üç temel soru:
+Dört temel soru:
 1. Robot nasıl çalışacak?
 2. Robot; veri toplama, yani mahsullerin su ihtiyaçlarını hesaplama görevini nasıl gerçekleştirilecek?
 3. Robot, topladığı verileri nasıl iletecek?
