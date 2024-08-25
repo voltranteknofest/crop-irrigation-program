@@ -7,9 +7,10 @@ Bu repo, 2024 yılının tarım teknolojileri kapsamındaki teknofest yarışmas
 ![image](https://github.com/user-attachments/assets/5f3f5590-15d8-42fd-ac73-4d6a9ab284f4)
 
 Üç temel soru:
-1. Veri toplama (mahsullerin su ihtiyacını hesaplama) görevi nasıl gerçekleştirilecek?
-2. Toplanan veriler nasıl iletilecek?
-3. Vana sistemi nasıl çalışacak?
+1. Robot nasıl çalışacak?
+2. Robot; veri toplama, yani mahsullerin su ihtiyaçlarını hesaplama görevini nasıl gerçekleştirilecek?
+3. Robot, topladığı verileri nasıl iletecek?
+4. Toplanan verilere göre vana sistemi nasıl kontrol edilecek?
 
 HEDEF: Otonom sulama-karar mekanizması ile su kaynaklarının verimli kullanımı.
 
