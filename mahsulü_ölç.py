@@ -32,7 +32,7 @@ def main():
     MAD              = 0.5   # izin verilen maksimum nem azalması (örn: %50 için 0.5 giriniz)
     field_capacity   = 160   # tarla kapasitesi                   (mm cinsinden)
     wilting_point    = 40    # solma noktası                      (mm cinsinden)
-    moisture         = 70    # toprak nemi                        (mm cinsinden)
+    moisture         = 20    # toprak nemi                        (mm cinsinden)
     
     # topraktaki nem durumu ve drenajın hesaplanması
     moisture, deep_percolation = calc_soil_props(moisture, field_capacity, wilting_point)
