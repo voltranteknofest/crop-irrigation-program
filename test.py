@@ -1,33 +1,18 @@
-import subprocess
-import os
-from dotenv import load_dotenv
+import requests
 
 
-load_dotenv()
-
-
-def save_to_dashboard(moisture, area):
-    match (area):
-        case 0:
-            api_url = os.getenv("API_URL_A")
-        case 1:
-            api_url = os.getenv("API_URL_B")
-        case 2:
-            api_url = os.getenv("API_URL_C")
-        case 3:
-            api_url = os.getenv("API_URL_D")
-        case _:
-            print("ERROR: Something is wrong with saving to dashboard.")
-            return
-
-    curl = [
-        "curl", "-v", "-X", "POST", api_url,
-        "--header", "Content-Type:application/json",
-        "--data", f'{{"moisture": {moisture}}}'
-    ]
-
-    subprocess.run(curl, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
-
-
-for i in range(4):
-    save_to_dashboard(0, i)
+def get_weather_data(city_name="İzmir"): # gelişmiş bir versiyonda coğrafi koordinatlar da kullanılabilir
+    api_key = API_KEY
+    base_url = "http://api.openweathermap.org/data/2.5/weather?"
+    complete_url = \ 
+    base_url + "appid=" + api_key + "&q=" + city_name + "&units=metric"
+    response = requests.get(complete_url)
+    data = response.json()
+    altitude      = data['main']['alt']
+    temperature   = data['main']['temp']
+    wind_speed    = data['wind']['speed']
+    humidity      = data['main']['humidity']
+    net_radiation = data['main']['raditation']
+    
+    return altitude, temperature, wind_speed, humidity, net_radiation
+    # rakım, sıcaklık, rüzgar hızı, bağıl nem, net radyasyon
