@@ -31,3 +31,8 @@ https://www.sciencedirect.com/science/article/pii/S1110016818301091
 
 ![image](https://github.com/user-attachments/assets/a8cb7e29-1196-4ade-9949-20fb7c828fed)
 
+#### Ekim Haritası
+
+![image](https://github.com/user-attachments/assets/3c22422e-71f1-407d-95f8-ad8522c84c85)
+
+
