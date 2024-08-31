@@ -14,17 +14,9 @@ Dört temel soru:
 
 HEDEF: Otonom sulama-karar mekanizması ile su kaynaklarının verimli kullanımı.
 
-### Bahçe Düzeyinde Sensör Tabanlı Sulamaya Dair Örnek Görüntü
-
-![image](https://github.com/user-attachments/assets/511c4666-15f4-4ca5-8304-0c36dad35cdb)
-
 ## Penmann-Monteith Denklemi
 
-Penman-Monteith denklemi, mahsullerin referans evapotranspirasyon ($ET0$) değerini hesaplamak için kullanılır. Bu değeri mahsulün türü ve yetişme dönemine göre belirlenen mahsul katsayısı ($Kc$) ile çarpmak bize o mahsulün net evapotranspirasyon değerini verir.
-
-$ET_0 = \frac{0.408 \Delta (R_n - G) + \frac{900}{T + 273} \gamma u_2 \delta e}{\Delta + \gamma (1 + 0.34 u_2)}$
-
-$Kc=1.15$; varsaydığımız durumda net evapotranspirasyon: $ETc= ET0 \times Kc$; olarak hesaplanır. Bu işlemin sonucunda bir bitkinin günde $ET0$ kadar milimetre su kaybına uğradığı hesabını yapmış oluruz.
+![image_2024-08-29_17-00-56](https://github.com/user-attachments/assets/5734e06a-b1ca-4f0f-9375-83c03f897ba4)
 
 ## Fiziksel Sulama Prensipleri
 
@@ -33,23 +25,6 @@ $Kc=1.15$; varsaydığımız durumda net evapotranspirasyon: $ETc= ET0 \times Kc
 ---
 
 ![image](https://github.com/user-attachments/assets/caaa74c6-3340-4470-b6b9-dc89bd3a7212)
-
-## Canlı Sunum Performansı
-
-### Matematiksel Olarak Bir Vanadan Saniyede ne kadar Su Akacağını Hesaplamak
-
-#### Genel Formül
-Boru çapı ve basınç farkına bağlı olarak belirli bir sürede akacak su miktarını hesaplamak için:
-
-$V = \left(\pi \times \left(\frac{d}{2}\right)^2 \times \sqrt{\frac{2 \times \Delta P}{\rho}}\right) \times t$
-
-Bu formül, bir vanadan ne kadar su akacağını hesaplamak için temel matematiksel denklemdir. Daha karmaşık durumlar için akışkan dinamiği prensipleri, kayıplar, sürtünme faktörleri gibi diğer faktörler de göz önüne alınmalıdır.
-
-### Birden Fazla Vana Kullanımının Avantajları
-
-* Bölgesel Sulama Kontrolü => Ürün çeşitliğiline yönelik oluşacak mahsul katsayısı farklılıklarını sulama ihtiyacında hesaba katmak için kontrol sağlar
-* Sistem Arızaları ve Bakım => Farklı vanalar kullanıldığında, bir vanada sorun çıktığında tüm tarlanın sulama sistemi etkilenmez. 
-* Esneklik ve Özelleştirme => Gelecekte tarlaya yeni mahsul eklemek isterseniz, zaten mevcut olan vana sistemi ile bu bölgeyi kolayca entegre edebilirsiniz.
 
 ### Robotun GPS Tabanlı Rotasyonu
 https://www.sciencedirect.com/science/article/pii/S1110016818301091
