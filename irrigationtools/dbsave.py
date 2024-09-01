@@ -1,7 +1,7 @@
 import sqlite3
 import datetime
 import numpy as np
-from .consts import DB_PATH, SQL_INSERT, SQL_TABLE, PARAMS_MAPPING
+from irrigationtools.consts import DB_PATH, SQL_INSERT, SQL_TABLE, PARAMS_MAPPING
 
 __all__ = ["get_results_all", "calc_average_moisture_for_result",
            "save_to_sqlite", "delete_by_id"]
@@ -47,11 +47,12 @@ def calc_average_moisture_for_result(crop_type):
 
     inverted_params = {v: k for k, v in PARAMS_MAPPING.items()}
     soil_moisture_values = [r[inverted_params["Soil Moisture"]] for r in rows]
+    count = len(soil_moisture_values)
     avg_soil_moisture = np.average(soil_moisture_values)
     
     print(soil_moisture_values)
 
-    return avg_soil_moisture
+    return avg_soil_moisture, count
 
 
 def save_to_sqlite(crop_type, altitude, T, u2, RH, R_n, G, Kc, ET0, ETc, moisture, deep_percolation, amount, days):
