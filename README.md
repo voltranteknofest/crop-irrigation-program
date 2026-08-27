@@ -1,6 +1,7 @@
-# Bilimsel Prensipler Işığında Sulama İhtiyaçlarının  Optimizasyonu
+# Bilimsel Prensipler Işığında Sulama İhtiyaçlarının Optimizasyonu
 
-Bu repo, 2024 yılının tarım teknolojileri kapsamındaki teknofest yarışması için hazırlanmıştır. Projemize ait orijinal makalenin linki: (yüklenecek)
+Bu repo, 2024 yılının tarım teknolojileri kapsamındaki teknofest yarışması için hazırlanmıştır.
+"Detay Raporu" şablonuna uyan [proje makalesi](https://cdn.t3kys.com/media/upload/user_form_upload/2024/6/24/xhWnuw8Mqus4ONx6i8HGqhMRefNhoQ3X.pdf).
 
 ## Projenin Şematik Görünümü
 
